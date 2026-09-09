@@ -45,7 +45,7 @@ export const site = {
   //
   // Until then the form falls back to opening the visitor's email app with
   // everything pre-filled, which works but loses some leads on mobile.
-  formEndpoint: '' as string,
+  formEndpoint: 'https://formspree.io/f/meaqvpkd' as string,
 
   /* -------------------------------------------------------- business hours */
   // TODO: your real hours. Delete this block entirely if you'd rather not
@@ -131,3 +131,4 @@ export const unverifiedClaims = {
   testimonials: [] as { quote: string; author: string; role: string }[],
   stats: [] as { value: string; label: string }[],
 } as const;
+
