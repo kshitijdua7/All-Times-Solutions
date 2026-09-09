@@ -64,10 +64,6 @@ export function ContactCard() {
         </div>
       </div>
 
-      <p className="relative z-[2] mt-5 text-[12.5px] leading-[1.5] text-white/45">
-        Placeholder: a professional portrait of {site.contactName.split(' ')[0]} can replace the
-        logo mark above once one is supplied.
-      </p>
     </div>
   );
 }
