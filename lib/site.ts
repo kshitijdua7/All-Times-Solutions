@@ -22,6 +22,8 @@ export const site = {
   phoneHref: 'tel:+14163175661',
   email: 'alltimesolutions02@gmail.com',
   emailHref: 'mailto:alltimesolutions02@gmail.com',
+  whatsappHref:
+    'https://wa.me/14163175661?text=Hi%20Sumit%2C%20I%27d%20like%20a%20quote%20for%20',
 
   /* ---------------------------------------------------------- service area */
   serviceArea: 'GTA, Ontario, Canada',

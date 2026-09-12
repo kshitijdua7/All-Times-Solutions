@@ -14,6 +14,7 @@ import '@fontsource/montserrat/800.css';
 
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
+import { WhatsAppButton } from '@/components/ui/WhatsAppButton';
 import { localBusinessSchema } from '@/lib/seo';
 import { site } from '@/lib/site';
 import './globals.css';
@@ -53,6 +54,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="main">{children}</main>
         <Footer />
+        <WhatsAppButton />
         <script
           type="application/ld+json"
           // Structured data for Google. Static, generated at build time.
